@@ -1,5 +1,6 @@
 [package]
 name = "bevy_missing_texture"
+description = "A library to help with missing textures in bevy"
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
