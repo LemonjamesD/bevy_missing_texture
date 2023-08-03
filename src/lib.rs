@@ -101,11 +101,11 @@ fn missing_texture(
         return;
     };
     let missing_texture = missing_texture.clone();
-    info!("Checking {} images", checked.len());
+    // info!("Checking {} images", checked.len());
     checked.retain(|handle| {
-        info!("{:?}", asset_server.get_handle_path(handle));
+        // info!("{:?}", asset_server.get_handle_path(handle));
         let load_state = asset_server.get_load_state(handle);
-        info!("{:?}", load_state);
+        // info!("{:?}", load_state);
         if load_state == LoadState::Loading {
             return true;
         }
