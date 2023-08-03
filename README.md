@@ -1,4 +1,4 @@
-![Crates.io](https://img.shields.io/crates/v/bevy_missing_texture.svg)
+[![Crates.io](https://img.shields.io/crates/v/bevy_missing_texture.svg)](https://crates.io/crates/bevy_missing_texture)
 
 # Bevy library for Missing Textures
 
