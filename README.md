@@ -1,3 +1,5 @@
+![Crates.io](https://img.shields.io/crates/v/bevy_missing_texture.svg)
+
 # Bevy library for Missing Textures
 
 ```rs
