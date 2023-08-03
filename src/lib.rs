@@ -59,10 +59,11 @@ pub struct MissingTexturePlugin;
 
 impl MissingTexturePlugin {
     /// This overrides the default path which is `missing_texture.png` in your assets_dir
-    pub fn new(path: &'static str) {
+    pub fn new(path: &'static str) -> Self {
         unsafe {
             MISSING_TEXTURE_PATH = path;
         }
+        Self
     }
 }
 
